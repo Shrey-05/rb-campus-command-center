@@ -1,0 +1,65 @@
+[server]
+enableStaticServing = true
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/Inter_18pt-Regular.ttf"
+style = "normal"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/Inter_18pt-Medium.ttf"
+style = "normal"
+weight = 500
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/Inter_18pt-SemiBold.ttf"
+style = "normal"
+weight = 600
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/Inter_18pt-Bold.ttf"
+style = "normal"
+weight = 700
+
+[[theme.fontFaces]]
+family = "JetBrainsMono"
+url = "app/static/JetBrainsMono-Regular.ttf"
+style = "normal"
+weight = 400
+
+[[theme.fontFaces]]
+family = "JetBrainsMono"
+url = "app/static/JetBrainsMono-Medium.ttf"
+style = "normal"
+weight = 500
+
+[[theme.fontFaces]]
+family = "JetBrainsMono"
+url = "app/static/JetBrainsMono-Bold.ttf"
+style = "normal"
+weight = 700
+
+[theme]
+# Dark mode developer palette - adopted as-is from
+# github.com/jmedia65/awesome-streamlit-themes (dark-mode)
+primaryColor = "#a855f7"             # Purple-500 accent
+backgroundColor = "#0d1117"          # GitHub-like dark background
+secondaryBackgroundColor = "#161b22" # Slightly lighter - cards and sections
+textColor = "#f0f6fc"                # Light blue-white
+linkColor = "#58a6ff"                # GitHub-like blue
+borderColor = "#30363d"              # Dark gray borders
+showWidgetBorder = true
+baseRadius = "0.375rem"
+font = "Inter"
+headingFont = "Inter"
+codeFont = "JetBrainsMono"
+codeBackgroundColor = "#21262d"
+showSidebarBorder = true
+
+[theme.sidebar]
+backgroundColor = "#161b22"
+secondaryBackgroundColor = "#21262d"
